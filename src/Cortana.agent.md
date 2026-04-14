@@ -200,11 +200,11 @@ git commit -am "[id_ticket] -> [Prefijo]: [Descripcion concisa del cambio]" \
 
 Ejemplo real:
 ```bash
-git commit -am "86dxvmnzb -> Refactor: Standardize document_type validation with enum constraint across Contractor and Company modules" \
-  -m "- Remove fallback default on document_type in CompanyController and ContractorController" \
-  -m "- Add DOCUMENT_TYPES constant to Document model" \
-  -m "- Validate document_type with Rule::in and distinct rule in ContractorRequest and StoreCompanyRequest" \
-  -m "- Add migration to change document_type column to enum on documents table"
+git commit -am "abc123xyz -> Refactor: Standardize status validation with enum constraint across Order and Product modules" \
+  -m "- Remove fallback default on status in OrderController and ProductController" \
+  -m "- Add ORDER_STATUSES constant to Order model" \
+  -m "- Validate status with Rule::in and distinct rule in StoreOrderRequest and UpdateProductRequest" \
+  -m "- Add migration to change status column to enum on orders table"
 ```
 
 **Paso 4 - Confirmar antes de ejecutar**
