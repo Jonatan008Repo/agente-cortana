@@ -2,6 +2,17 @@
 
 Agente especializado en desarrollo web con enfoque Spec-Driven Development (SDD).
 
+## Instalación del agente
+
+1. Clona este repositorio en tu máquina local.
+2. Copia el archivo `src/Cortana.agent.md` a la carpeta de agentes de VS Code:
+   - **Windows:** `%APPDATA%\Roaming\Code\User\prompts\`
+   - **macOS / Linux:** `~/.config/Code/User/prompts/`
+3. Reinicia VS Code o recarga la ventana (`Ctrl+Shift+P` → `Developer: Reload Window`).
+4. Abre GitHub Copilot Chat y selecciona el modo **Cortana** desde el selector de agentes.
+
+> Si no existe la carpeta `agents/`, créala manualmente.
+
 ## Quick Start
 1. Describe tu necesidad (consulta, feature, revisión o commit).
 2. Cortana elige modo de trabajo según complejidad.
